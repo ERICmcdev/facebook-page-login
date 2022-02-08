@@ -1,0 +1,175 @@
+#container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-page-index {
+    width: 100%;
+    height: 70px;
+    background-color: #3b5998;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.wrapper-field-login-form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.wrapper-field-login-form > .field-login {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px 0 0;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.field-login > input {
+    margin: 5px 0 0 0;
+}
+
+.wrapper-field-login-form > input[type="submit"] {
+    padding: 5px 13px;
+    background-color: #1044b6;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.wrapper-field-login-form > input[type="submit"]:hover {
+    background-color: #034dec;
+}
+
+.interaction-login-page-index {
+    width: 100%;
+    // height: 500px;
+    background-image: linear-gradient(to top, rgba(189, 197, 235, 0.527), rgb(255, 255, 255));
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 50px 0 20px 0;
+}
+
+.welcome-to-facebook {
+    width: 33%;
+    & h2 {
+        width: 80%;
+        color: rgb(9, 9, 44);
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    & img {
+        width: 100%;
+    }
+}
+
+.wrapper-field-signin-form {
+    width: 28%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    & h2 {
+        font-size: 34px;
+        font-weight: 600;
+        color: rgb(19, 19, 19);
+        margin-bottom: 20px;
+    }
+    & strong {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(19, 19, 19);
+        margin-bottom: 20px;
+    }
+}
+
+.field-signin {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    & ::placeholder {
+        font-size: 18.5px;
+    }
+}
+
+.field-signin > input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0 0 0 5px;
+}
+
+.field-signin-in-box {
+    justify-content: space-between;
+    flex-direction: initial;
+    & input {
+        width: 49%;
+        height: 50px;
+    }
+}
+
+.field-signin--label {
+    label {
+        margin-bottom: 5px;
+        color: gray;
+        font-size: 23px;
+    }
+}
+
+.field-signin--label > div > label {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+
+.wrapper-field-signin-form > input[type="submit"] {
+    padding: 3% 20%;
+    background-image: linear-gradient(to top, rgb(36, 133, 32), rgb(85, 197, 82));
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.wrapper-field-signin-form > input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-sub-menu-index-page {
+    width: 900px;
+    padding: 15px 0;
+    display: flex;
+    text-align: left;
+    & a {
+        margin: 0 15px 0 15px;
+    }
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid #dbdbdb;
+}
