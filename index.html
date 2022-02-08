@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <meta name="description" content="login facebook">
+    <meta name="keywords" content="HTML, css, javascript">
+    <meta name="author" content="Ericmdev, eric macedo, Eric Macedo, desenvolvedor">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>Login Facebook</title>
+</head>
+
+<body>
+    <main id="container">
+        <header class="header-page-index">
+            <div class="logo">
+                <a href="http://facebook.com">facebook</a>
+            </div>
+            <form class="wrapper-field-login-form">
+                <div class="field-login">
+                    <label for="email-login-page-index">email or phone:</label>
+                    <input type="email" name="email-page-index" id="email-login-page-index" required>
+                </div>
+                <div class="field-login">
+                    <label for="password-login-page-index">password:</label>
+                    <input type="password" name="password-page-index" id="password-login-page-index" minlength="4"
+                        required>
+                </div>
+                <input type="submit" value="login">
+            </form>
+        </header>
+        <section class="interaction-login-page-index">
+            <section class="welcome-to-facebook">
+                <h2>Facebook helps you connect and share with the people in your life.</h2>
+                <figure>
+                    <img src="./src/images/facebook-login-page.png" alt="connect with us">
+                </figure>
+            </section>
+            <form class="wrapper-field-signin-form">
+                <h2>abra uma conta</h2>
+                <strong>é rápido e fácil.</strong>
+                <div class="field-signin field-signin-in-box">
+                    <input type="text" placeholder="first name" name="name-signin-page-index"
+                        id="name-signin-page-index" required minlength="3">
+                    <input type="text" placeholder="second name" name="second-name-signin-page-index"
+                        id="second-name-signin-page-index" required minlength="4">
+                </div>
+                <div class="field-signin">
+                    <input type="email" placeholder="email" name="email-signin-page-index"
+                        id="second-name-signin-page-index" required>
+                </div>
+                <div class="field-signin">
+                    <input type="password" placeholder="password" name="password-signin-page-index"
+                        id="second-name-signin-page-index" required minlength="4">
+                </div>
+                <div class="field-signin field-signin--label">
+                    <label for="date-birthday-page-index-id">data de nascimento</label>
+                    <input type="date" name="date-of-birthday-page-index" id="date-birthday-page-index-id" required>
+                </div>
+                <div class="field-signin field-signin--label">
+                    <label for="gender-page-index">gênero</label>
+                    <div>
+                        <input type="radio" name="person" id="man-id">
+                        <label for="man-id">man</label>
+                        <input type="radio" name="person" id="woman-id">
+                        <label for="woman-id">woman</label>
+                        <input type="radio" name="person" id="personalizated-id">
+                        <label for="personalizated-id">personalizated</label>
+                    </div>
+                </div>
+                <input type="submit" value="register">
+            </form>
+        </section>
+        <footer>
+            <div class="footer-sub-menu-index-page border-bottom-grey">
+                <a href="#">português(Brasil)</a>
+                <a href="#">português(Brasil)</a>
+                <a href="#">português(Brasil)</a>
+                <a href="#">português(Brasil)</a>
+                <a href="#">português(Brasil)</a>
+                <a href="#">português(Brasil)</a>
+            </div>
+            <div class="footer-sub-menu-index-page">
+                <a href="#">register</a>
+                <a href="#">login</a>
+                <a href="#">messenger</a>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
